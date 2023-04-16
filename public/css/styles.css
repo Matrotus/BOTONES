@@ -1,0 +1,177 @@
+@-webkit-keyframes shadow-inset-center{0%{-webkit-box-shadow:inset 0 0 0 0 transparent;box-shadow:inset 0 0 0 0 transparent}100%{-webkit-box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5);box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5)}}@keyframes shadow-inset-center{0%{-webkit-box-shadow:inset 0 0 0 0 transparent;box-shadow:inset 0 0 0 0 transparent}100%{-webkit-box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5);box-shadow:inset 0 0 14px 0 rgba(0,0,0,.5)}}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondo {
+    background-color: #133645;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    max-width: fit-content;
+    padding: 5rem;
+    margin: auto;
+    margin-block: 100px;
+    -webkit-animation:scale-up-center 1s ease-out both;animation:scale-up-center 1.4s ease-out both
+} 
+
+
+#btn {
+    background-color: rgb(49,53,66);
+    color: #ffffffdf;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+    
+}
+
+
+#btn:hover {
+    background-color:orange ;
+}
+
+#btn2 {
+    background-color: aquamarine;
+    color: #574659df;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 2s ease;
+}
+
+#btn2:hover {
+    background-color: #133645;
+    color: aliceblue;
+}
+
+#btn3 {
+    background-color: rgb(43, 42, 40);
+    color: #e1af19;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+}
+
+#btn3:hover {
+    background-color: whitesmoke;
+}
+
+#btn4 {
+
+    background-color: rgb(238, 224, 194);
+    color: #000000;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+}
+
+#btn4:hover {
+    font-weight: bolder;
+    background-color: #0e5334;
+    color: #ffffff;
+}
+
+#btn5 {
+
+    background-color: #133645;
+    color: whitesmoke ;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+}
+
+#btn5:hover {
+    background-color: #fb7171;
+    color: #2d2f30;
+    font-weight: bolder;
+}
+
+#btn6 {
+
+    background-color: rgb(225, 83, 211);
+    color: #edc447;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+}
+
+#btn6:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#btn7 {
+
+    background-color: rgb(228, 164, 226);
+    color: #000000;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+}
+
+
+#btn7:hover {
+    background-color: rgb(56, 18, 92);
+    color: white;
+}
+#btn8 {
+
+    background-color: rgb(193, 148, 59);
+    color: #ffffff;
+    padding: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border: 0;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 5px;
+    transition: background-color 1s ease;
+}
+#btn8:hover{
+    background-color: rgb(103, 21, 21) ;
+}
